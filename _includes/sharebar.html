@@ -1,0 +1,25 @@
+<div class="sharebar">
+  <div class="container sharebar-sticky">
+
+    <div class="share-icon">
+      <div class="g-plusone" data-size="tall" 
+        data-href="{{ site.url }}{{ page.url }}"></div>
+    </div>
+    
+    <div class="share-icon">    
+      <a class="twitter-share-button"
+        href="https://twitter.com/share"
+        data-url="{{ site.url }}{{ page.url }}"
+        data-via="geekoo"
+        data-text="Check out this blog post: {{ page.title }}"
+        data-count="vertical"></a>
+    </div>
+
+    <div class="share-icon">
+      <div class="fb-share-button" 
+        data-href="{{ site.url }}{{ page.url }}" 
+        data-layout="box_count">
+      </div>
+    </div>      
+  </div>
+</div>

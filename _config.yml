@@ -1,26 +1,40 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: redcarpet
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title: varchar
+tagline: 'a stackdump of my mind'
+description: 'a stackdump of my mind'
+url: http://blog.prashu.com
+baseurl: /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name: 'Prashanth K S'
+  url: 'http://blog.prashu.com'           
 
 paginate:         5
 
-# Custom vars
-version:          2.1.0
+sidebar-links:
+  dribbble: 
+  email: 
+  facebook: ksprashu
+  flickr: ksprashu
+  github: ksprashu
+  instagram: ksprashu
+  linkedin: ksprashu
+  pinterest: ksprashu
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: geekoo
+  stackoverflow: users/2603592/ksprashu
 
-github:
-  repo:           https://github.com/poole/hyde
+disqus: varchar
+google_analytics: UA-56793220-1
+
+gems:
+  - jekyll-sitemap
+  - jemoji
